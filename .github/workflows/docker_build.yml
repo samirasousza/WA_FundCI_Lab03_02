@@ -27,8 +27,8 @@ jobs:
           # dockerfile: ./Dockerfile
           tags: ${{ env.DOCKERHUB_USERNAME }}/webacademy:latest
 
-deploy:
-  runs-on: ubuntu-latest
-  steps:
-    - name: Fazendo Deploy
-      run: echo "Deploy com sucesso!"
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fazendo Deploy
+        run: echo "Deploy com sucesso!"
